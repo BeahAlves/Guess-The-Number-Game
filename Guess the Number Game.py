@@ -7,7 +7,7 @@ picked_number = randint(1, 100)
 chances = 10
 hard_chances = 5
 
-level = input("Choose a difficulty. Type 'E' to Easy or 'H' to Hard. ")
+level = input("Choose a difficulty. Type 'E' to Easy (10 chances) or 'H' to Hard (5 chances). ")
 if level in 'eE':
     for attempt in range(10):
         print(f"You have {chances} attempts to guess the number. ")
